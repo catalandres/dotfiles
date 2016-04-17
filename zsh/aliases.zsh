@@ -1,1 +1,8 @@
 alias reload!='. ~/.zshrc'
+alias brew!='brew update; brew upgrade; brew cleanup'
+alias pip3!='pip3 install --upgrade pip; sudo -H pip3 freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U'
+alias gem!='gem update'
+alias bundle!='bundle update'
+alias jekyll!='bundle exec jekyll serve'
+alias latex!='sudo tlmgr update --self; sudo tlmgr update --all'
+alias lsl='ls -ahl'
