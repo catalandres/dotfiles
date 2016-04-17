@@ -1,0 +1,1 @@
+alias r!='sudo Rscript --verbose update.r'
